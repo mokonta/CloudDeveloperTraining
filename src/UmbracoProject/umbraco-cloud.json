@@ -1,11 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "mitchs intuitive polar bear",
+      "Name": "Mitchs Intuitive Polar Bear",
       "Alias": "mitchs-intuitive-polar-bear",
       "Id": "60e5a52f-1be9-409a-99e7-1d2f1431db04",
+      "Url": "https://www.s1.umbraco.io/project/mitchs-intuitive-polar-bear",
       "TrialExpireDate": "2026-07-23T09:16:57.0000000",
       "Workspaces": [
+        {
+          "Id": "07f6896c-e4d0-42ec-aa67-da3a91e22071",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-mitchs-intuitive-polar-bear.euwest01.umbraco.io"
+        },
         {
           "Id": "408c1a63-e3ff-4f82-9ba4-6029adc48b5a",
           "Name": "Live",
