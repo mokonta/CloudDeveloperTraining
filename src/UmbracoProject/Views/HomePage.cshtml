@@ -29,13 +29,14 @@
 <div class="jumbotron d-flex align-items-center" @Html.Raw(mainBackgroundStyle)>
     <div class="container text-center">
         <h1 class="display-1 mb-4">
+            @await Component.InvokeAsync("GiphyWidget")
             @if (Model.Value<string>("highlightText") != "")
             {
                 @Html.Raw(Model.Value<string>("highlightText").Replace(" ", " <br />"))
             }
             else
             {
-                <span>Umbraco <br /> Training</span>
+                <span>Umbraco <br/> Training</span>
             }
         </h1>
 
